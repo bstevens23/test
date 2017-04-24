@@ -1,48 +1,61 @@
-Linux Test Project
-------------------
+# Change Order Requests
 
-Linux Test Project is a joint project started by SGI, OSDL and Bull developed
-and maintained by IBM, Cisco, Fujitsu, SUSE, Red Hat, Oracle and others. The
-project goal is to deliver tests to the open source community that validate the
-reliability, robustness, and stability of Linux.
+## Before Creation
+Dev Ops requires the following information before creating a Change Order Request
 
-The LTP testsuite contains a collection of tools for testing the Linux kernel
-and related features. Our goal is to improve the Linux kernel and system
-libraries by bringing test automation to the testing effort. Interested open
-source contributors are encouraged to join.
+### Category (select one)
+Normal or Expedited
 
-Project pages are located at: http://linux-test-project.github.io/
+### Priority
+3
 
-The latest image is always available at:
-https://github.com/linux-test-project/ltp/releases
+Risk
+3 – Medium
 
-The discussion about the project happens at ltp mailing list:
-http://lists.linux.it/listinfo/ltp
+Group
+L4 AppDev B2C
 
-The git repository is located at GitHub at:
-https://github.com/linux-test-project/ltp
+Impact (select one)
+One Person
+Small Group
+Single Group
+Multiple Groups
+Entire Organization
 
-Warning!
---------
-Be careful with these tests!
+Organization
+SVU-HomeOffice
 
-Don't run them on production systems. Growfiles, doio, and iogen in particular
-stress the I/O capabilities of systems and while they should not cause problems
-on properly functioning systems, they are intended to find (or cause) problems.
+Order Summary
+Short summary of the change being requested
 
-Developers corner
------------------
+Order Description
+Affected Business / Affected Application
+More detailed description of the change being requested
 
-Before you start you should read following documents:
+Scheduled Start Date
+Date the deployment is set to start
 
-* doc/test-writing-guidelines.txt
-* doc/build-system-guide.txt
 
-these two should contain all information needed for modifying or creating LTP
-testcases. If something is not covered there don't hesitate to ask on the LTP
-mailing list.
+Scheduled Duration
+How long the deployment is expected to take
 
-Also note that these documents are available online at:
+After Creation
+The following tasks will fall on the mentioned teams
 
-https://github.com/linux-test-project/ltp/wiki/Test-Writing-Guidelines
-https://github.com/linux-test-project/ltp/wiki/BuildSystem
+SVHarbor/EA Impact
+To be completed by Dev Ops.
+Confirmation email from Max that the service does not impact SVHarbor/EA
+
+Change Plan Document (CPD)
+To be completed by the Developer(s) who made the changes
+
+Test Plan for Change (TPC)
+To be completed by PM/Lead Dev
+Request QA to create the document and get approval when all included tickets are Done or In Test
+
+Risk Survey 
+To be completed by the Developer(s) who make the changes
+
+Additional  Information
+To be completed by the Developers(s) who made the changes
+If any additional information is needed for the deployment, the Developer(s) will add this information to the Change Order
